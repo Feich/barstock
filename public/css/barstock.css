@@ -1,0 +1,15 @@
+body {
+    background-image: url("../images/mahogany-grain-highcontrast-lowbrightness.png");
+}
+main {
+    color: #FFF;
+}
+.btn {
+    color: #333;
+}
+.btn-primary {
+    color: #FFF;
+}
+textarea {
+    color: #000000;
+}
