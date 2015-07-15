@@ -16,7 +16,7 @@ if (isset($_POST["confirm"])) {
     try {
         require_once "../application/BarstockPDO.php";
 
-        $dataRepository = new BarstockPDO("mysql:host=localhost;dbname=a1200100", "root", "salainen");
+        $dataRepository = new BarstockPDO("mysql:host=localhost;dbname=database", "username", "password");
 
         $dataRepository->storeBeverage($unconfirmedBeverage);
 

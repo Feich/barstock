@@ -9,7 +9,7 @@
 require_once "BarstockPDO.php";
 require_once "Beverage.php";
 
-$dataRepository = new BarstockPDO("mysql:host=localhost;dbname=a1200100", "root", "salainen");
+$dataRepository = new BarstockPDO("mysql:host=localhost;dbname=database", "username", "password");
 
 if (isset($_GET["beveragename"])) {
     $result = $dataRepository->getAllBeveragesWithPattern($_GET["beveragename"]);
